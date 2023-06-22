@@ -22,10 +22,7 @@ public class ReadRawCounterXML extends BaseXml {
 
     //    static String url = "E:/nifi/convert-file/src/main/resources/file/A20230604.1130+0700-1145+0700_SubNetwork=R_34708E_KHA,MeContext=3G_NTG215S_KHA,ManagedElement=3G_NTG215S_KHA_statsfile.xml";
     static String url = "/Users/seu/Documents/telsoft/oss/convert-file/src/main/resources/file/A20230604.1130+0700-1145+0700_SubNetwork=R_34708E_KHA,MeContext=3G_NTG215S_KHA,ManagedElement=3G_NTG215S_KHA_statsfile.xml";
-
     private String dateTime = "";
-
-
     public static void main(String[] args) throws FileNotFoundException, XMLStreamException {
         //write
         Ericsson3gDTO dto = new Ericsson3gDTO();
